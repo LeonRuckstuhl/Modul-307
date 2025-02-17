@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/styles/style.css">
-    <link href="table.html">
     <title>Formular</title>
 </head>
 <body>
-    <form id="form-table">
+    <form action="Abwesenheitsassistent.php" method="POST" id="form-table">
         <table>
           <tr>
             <td><label for="">Vor- und Nachname</label></td>
@@ -16,19 +15,19 @@
           </tr>
           <tr>
             <td><label for="">Datum vom</label></td>
-            <td><input type="date" name="" id=""></td>
+            <td><input type="date"></td>
           </tr>
           <tr>
             <td><label for="">Datum bis</label></td>
-            <td><input type="date" name="" id=""></td>
+            <td><input type="date"></td>
           </tr>
           <tr>
-            <td><label for="">Kommentar</label></td>
-            <td><textarea type="text" id=""></textarea></td>
+            <td><label for="">Begründung</label></td>
+            <td><textarea type="text"></textarea></td>
           </tr>
           <tr>
             <td><label></label></td>
-            <td><button onclick='table.html'>Absenden</button></td>
+            <td><a href="Abwesenheiten_Liste.php">Absenden</a>
           </tr>
         </table>
       </form>
