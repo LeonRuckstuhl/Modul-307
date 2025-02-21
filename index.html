@@ -7,27 +7,27 @@
     <title>Formular</title>
 </head>
 <body>
-    <form action="Abwesenheitsassistent.php" method="POST" id="form-table">
+    <form action="Abwesenheiten_Liste.php" method="post" id="form-table">
         <table>
           <tr>
             <td><label for="">Vor- und Nachname</label></td>
-            <td><input type="name" id=""></td>
+            <td><input name="Name" type="text"></td>
           </tr>
           <tr>
             <td><label for="">Datum vom</label></td>
-            <td><input type="date"></td>
+            <td><input name="Datumvom" type="date"></td>
           </tr>
           <tr>
             <td><label for="">Datum bis</label></td>
-            <td><input type="date"></td>
+            <td><input name="Datumbis" type="date"></td>
           </tr>
           <tr>
             <td><label for="">Begründung</label></td>
-            <td><textarea type="text"></textarea></td>
+            <td><textarea name="Begründung" type="text"></textarea></td>
           </tr>
           <tr>
             <td><label></label></td>
-            <td><a href="Abwesenheiten_Liste.php">Absenden</a>
+            <td><button name="abschicken">Absenden</button>
           </tr>
         </table>
       </form>

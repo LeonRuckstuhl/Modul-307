@@ -1,9 +1,27 @@
 <?php 
 include 'connection.php';
+print_r($_POST);
+$Name = $_POST['Name'];
+$Datumvom = $_POST['Datumvom'];
+$Datumbis = $_POST['Datumbis'];
+$Kommentar = $_POST['Begründung'];
 
-$sql = "SELECT * FROM Abwesenheiten ORDER BY reg_date DESC";
+// Prepare the SQL query using placeholders
+$stmt = $conn->prepare("INSERT INTO Abwesenheiten (`Name`, `Datumvom`, `Datumbis`, `Begründung`)
+                          VALUES (?, ?, ?, ?)");
+
+// Bind the variables to the placeholders
+$stmt->bind_param("ssss", $Name, $Datumvom, $Datumbis, $Kommentar);
+
+// Execute the query
+if ($stmt->execute()) {
+    echo "Record inserted successfully.";
+} else {
+    echo "Error: " . $stmt->error;
+}
+
+$sql = "SELECT * FROM Abwesenheiten ORDER BY id ASC";
 $result = $conn->query($sql);
-$conn = new mysqli($servername, $username, $password, $dbname);
 
 ?>
 
@@ -32,9 +50,9 @@ $conn = new mysqli($servername, $username, $password, $dbname);
                         while($row = $result->fetch_assoc()) {
                             echo "<tr>";
                             echo "<td>" . $row["id"] . "</td>";
-                            echo "<td>" . $row["Vor- und Nachname"] . "</td>";
-                            echo "<td>" . $row["Datum vom"] . "</td>";
-                            echo "<td>" . $row["Datum bis"] . "</td>";
+                            echo "<td>" . $row["Name"] . "</td>";
+                            echo "<td>" . $row["Datumvom"] . "</td>";
+                            echo "<td>" . $row["Datumbis"] . "</td>";
                             echo "<td>" . $row["Begründung"] . "</td>";
                         }
                     } else {
