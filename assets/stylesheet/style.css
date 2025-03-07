@@ -1,0 +1,71 @@
+* {
+    margin:auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+div {
+    width:40%;
+    margin-top:10%;
+    justify-content:center;
+}
+table {
+    width:100%;
+    padding:40px;
+    background-color:white;
+    border-radius:30px;
+}
+.tablesmall {
+    height:300px;
+    border-radius:5px;
+}
+.tablebig {
+    width:90%;
+    align-content:center;
+}
+.textbox {
+    margin-left:10%;
+}
+thead {
+    border-width:2px;
+    border-color:black;
+}
+
+tbody {
+    border-width:2px;
+    border-color:black;
+    margin:10px;
+    text-align:center;
+}
+td {
+    padding:10px;
+    min-width:50px;
+    text-align:center;
+}
+input,
+textarea {
+    border-color:black;
+    border-width:2px;
+    border-radius:5px;
+    align-self:center;
+}
+body {
+    background-color:rgb(38, 35, 63);
+}
+h1 {
+    color:white;
+    text-align:center;
+    margin:10px;
+}
+button {
+    width:100%;
+    margin-top: 10px;
+    padding:20px;
+    font-size:18px;
+    color:white;
+    background-color:rgb(13, 149, 13);
+    border-radius:10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+}
+button:hover {
+    background-color:green;
+}

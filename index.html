@@ -3,33 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/styles/style.css">
     <title>Formular</title>
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
 </head>
 <body>
-    <form action="Abwesenheiten_Liste.php" method="post" id="form-table">
-        <table>
-          <tr>
-            <td><label for="">Vor- und Nachname</label></td>
-            <td><input name="Name" type="text"></td>
-          </tr>
-          <tr>
-            <td><label for="">Datum vom</label></td>
-            <td><input name="Datumvom" type="date"></td>
-          </tr>
-          <tr>
-            <td><label for="">Datum bis</label></td>
-            <td><input name="Datumbis" type="date"></td>
-          </tr>
-          <tr>
-            <td><label for="">Begründung</label></td>
-            <td><textarea name="Begründung" type="text"></textarea></td>
-          </tr>
-          <tr>
-            <td><label></label></td>
-            <td><button name="abschicken">Absenden</button>
-          </tr>
-        </table>
-      </form>
+  <div>
+    <h1>Abwesenheitsformular</h1>
+    <form action="Abwesenheiten_Liste.php" method="post" id="form-table" onsubmit="return validateForm()">
+      <table>
+        <tr>
+          <td><label>Vor- und <br> Nachname</label></td>
+          <td class="textbox"><input name="Name" type="text"></td>
+        </tr>
+        <tr>
+          <td><label>Datum vom</label></td>
+          <td class="textbox"><input name="Datumvom" type="date"></td>
+        </tr>
+        <tr>
+          <td><label>Datum bis</label></td>
+          <td class="textbox"><input name="Datumbis" type="date"></td>
+        </tr>
+        <tr>
+          <td><label>Begründung</label></td>
+          <td class="textbox"><textarea name="Begründung" type="text"></textarea></td>
+        </tr>
+          <td><label>E-mail Adresse</label></td>
+          <td class="textbox"><input name="Email" type="text"></td>
+        </tr>
+      </table>
+      <button name="abschicken">Absenden</button>
+    </form>
+    
+  </div>
 </body>
 </html>
