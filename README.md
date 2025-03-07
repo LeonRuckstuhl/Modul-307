@@ -6,6 +6,9 @@ Dies ist meine Dokumentation zu M307 Interaktive Website mit Formular entwickeln
 05.12.2024
 Ich erledigte die Planung auf meinem Kanban Board und habe sie nach Iteration eingeordnet. Ich hatte noch einige Orientierungsprobleme, jedoch kam ich einigermassen zurecht.
 
+![Screenshot 2025-02-28 110324](https://github.com/user-attachments/assets/543939c5-7475-436c-856a-2f0f5e6292ca)
+
+
 13.12.2024
 Ich begann mit dem Lernjob Form und Design und beendete ihn im Input. Daraufhin fing ich damit an, meinen HTML-Code zu schreiben.
 
@@ -24,6 +27,9 @@ Es gelang mir die Datenbank zu verbinden und konnte die Datenbank ausführen, je
 
 21.02.2025
 Ich machte mich jetzt ans Style und dekorierte die Sachen gründlich. Es gab Schwierigkeiten beim Style, die ich aber beheben konnte. Ich habe noch den Lösch-Button hinzugefügt, der aber nur mässig funktioniert. Es löscht zwar Elemente aus der Tabelle, aber es gibt Fehlermeldungen die auftauchen nachdem man die Löschung bestätigt. Jedoch funktioniert die Website beinahe ohne Probleme.
+
+![image](https://github.com/user-attachments/assets/b5a42c07-bc6d-4533-a85a-8cf4cfbddba0)
+![image](https://github.com/user-attachments/assets/56a3ae92-f848-4790-a01c-548ac9e293b5)
 
 28.02.2025
 Die Abgabe wurde um eine Woche verschoben, was mich erleichterte. Also konnte ich ohne Stress weiterarbeiten. Ich ging einmal die Checkliste durch.
