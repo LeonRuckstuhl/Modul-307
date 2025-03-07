@@ -28,5 +28,8 @@ Es gelang mir die Datenbank zu verbinden und konnte die Datenbank ausführen, je
 21.02.2025
 Ich machte mich jetzt ans Style und dekorierte die Sachen gründlich. Es gab Schwierigkeiten beim Style, die ich aber beheben konnte. Ich habe noch den Lösch-Button hinzugefügt, der aber nur mässig funktioniert. Es löscht zwar Elemente aus der Tabelle, aber es gibt Fehlermeldungen die auftauchen nachdem man die Löschung bestätigt. Jedoch funktioniert die Website beinahe ohne Probleme.
 
+![image](https://github.com/user-attachments/assets/b5a42c07-bc6d-4533-a85a-8cf4cfbddba0)
+![image](https://github.com/user-attachments/assets/56a3ae92-f848-4790-a01c-548ac9e293b5)
+
 28.02.2025
 Die Abgabe wurde um eine Woche verschoben, was mich erleichterte. Also konnte ich ohne Stress weiterarbeiten. Ich ging einmal die Checkliste durch.
